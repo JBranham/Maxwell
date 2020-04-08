@@ -83,6 +83,9 @@ namespace MyWebVIPTest
             Host.Current.OpenBrowser("http://www.ranorex.com/web-testing-examples/vip/", "IE", "", false, false, false, false, false, true);
             Delay.Milliseconds(0);
             
+            // MAKING A CHANGE
+            Report.Log(ReportLevel.Info, "Section", "MAKING A CHANGE", new RecordItemIndex(1));
+            
         }
 
 #region Image Feature Data

@@ -4,9 +4,6 @@ embeddedrepository="False"
 id="376f6b69-5cc9-4dbf-afb1-5e03d117884c"
 mode="Desktop"
 rxversion="8.3">
-	<name>
-		StartApp
-	</name>
 	<repeatcount>
 		1
 	</repeatcount>
@@ -33,8 +30,11 @@ rxversion="8.3">
 		args=""
 		browser="IE"
 		clearcache="False"
+		clearcookies="False"
 		enabled="True"
 		incognito="False"
+		instrument="True"
+		killexisting="False"
 		maximized="False"
 		optional="False">
 			<comment>
@@ -45,12 +45,21 @@ rxversion="8.3">
 				http://www.ranorex.com/web-testing-examples/vip/
 			</url>
 		</openwebsiterecorditem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				MAKING A CHANGE
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
 	</recorditems>
 	<repository
 	id="da3b2bc7-526d-47dd-b196-99cdf4d25f37"
 	name="MyWebVIPTestRepository"
 	relativepath="MyWebVIPTestRepository.rxrep"
-	rxversion="6.2">
+	rxversion="8.3">
 		<codegen
 		classname="MyWebVIPTestRepository"
 		namespace="MyWebVIPTest">
