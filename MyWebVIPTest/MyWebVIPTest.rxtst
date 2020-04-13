@@ -106,5 +106,8 @@ rxversion="8.3">
 		</testconfiguration>
 	</testconfigurations>
 	<references>
+		<reference>
+			Newtonsoft.Json.dll
+		</reference>
 	</references>
 </testsuitedoc>

@@ -83,10 +83,6 @@ namespace MyWebVIPTest
             Host.Current.CloseApplication(repo.RanorexVIPDatabaseTestWebApplicatio.Self, new Duration(0));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SlackJasonBranhamTestingTools.Grouping' at Center.", repo.SlackJasonBranhamTestingTools.GroupingInfo, new RecordItemIndex(1));
-            repo.SlackJasonBranhamTestingTools.Grouping.Click();
-            Delay.Milliseconds(200);
-            
         }
 
 #region Image Feature Data
