@@ -17,15 +17,25 @@ rxversion="8.3">
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
 			TracingScreenshotQuality="40"
+			VideoBitrate="2000"
+			VideoFps="15"
+			VideoRecordingMode="Off"
+			VideoSource="Auto"
 			enabletracingscreenshots="True"
 			id="38a16eeb-514b-4236-9bd0-a016195325f1"
+			junitreport="False"
 			name="MyWebVIPTest"
-			placescreenshotsinfolder="True"
 			reportcompress="False"
+			reportdirectoryname=""
+			reportenabled="True"
 			reportfilename="%S_%Y%M%D_%T.rxlog"
 			reporttemplatefolder=""
 			reportwriteinterval="30000ms">
 			</testsuite>
+			<teardown
+			id="3f06343a-3b77-4e68-a12f-a3cc0884d18b"
+			name="teardown">
+			</teardown>
 			<testmodule
 			id="487946a4-b583-420b-864c-347b5d18c384"
 			name="StartApp"
@@ -68,10 +78,14 @@ rxversion="8.3">
 						id="24ad07dd-9e00-49ae-91ab-e97416c4c3c5"
 						name="AddVIPs">
 						</testmodule>
-						<testmodule
-						id="7acd202a-b9f0-4a4c-ac63-14f4d88f88cc"
-						name="CloseApp">
-						</testmodule>
+						<teardown
+						id="3f06343a-3b77-4e68-a12f-a3cc0884d18b"
+						name="teardown">
+							<testmodule
+							id="7acd202a-b9f0-4a4c-ac63-14f4d88f88cc"
+							name="CloseApp">
+							</testmodule>
+						</teardown>
 					</testcase>
 				</testcase>
 			</testsuite>

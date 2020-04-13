@@ -83,8 +83,16 @@ namespace MyWebVIPTest
             Host.Current.OpenBrowser("http://www.ranorex.com/web-testing-examples/vip/", "IE", "", false, false, false, false, false, true);
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'RanorexVIPDatabaseTestWebApplicatio'.", repo.RanorexVIPDatabaseTestWebApplicatio.SelfInfo, new RecordItemIndex(1));
+            repo.RanorexVIPDatabaseTestWebApplicatio.Self.EnsureVisible();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'RanorexVIPDatabaseTestWebApplicatio'.", repo.RanorexVIPDatabaseTestWebApplicatio.SelfInfo, new RecordItemIndex(2));
+            repo.RanorexVIPDatabaseTestWebApplicatio.Self.WaitForDocumentLoaded();
+            Delay.Milliseconds(0);
+            
             // MAKING A CHANGE
-            Report.Log(ReportLevel.Info, "Section", "MAKING A CHANGE", new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Section", "MAKING A CHANGE", new RecordItemIndex(3));
             
         }
 

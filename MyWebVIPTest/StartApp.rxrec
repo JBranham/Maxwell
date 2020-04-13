@@ -45,6 +45,46 @@ rxversion="8.3">
 				http://www.ranorex.com/web-testing-examples/vip/
 			</url>
 		</openwebsiterecorditem>
+		<invokeactionrecorditem
+		action="EnsureVisible"
+		enabled="True"
+		optional="False"
+		searchpropertyid="1cd14b9b-cb25-4cf1-97a6-21e493f44e60">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="71ed5ed4-cabc-4650-8ac0-10e5d81f814c"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.ranorex.com']
+				</path>
+			</info>
+			<arguments
+			id="667c0011-55b4-4d98-b9a1-309c287cd874">
+			</arguments>
+		</invokeactionrecorditem>
+		<invokeactionrecorditem
+		action="WaitForDocumentLoaded"
+		enabled="True"
+		optional="False"
+		searchpropertyid="86e7e6e2-e97a-43cd-8135-875776c132b5">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="71ed5ed4-cabc-4650-8ac0-10e5d81f814c"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.ranorex.com']
+				</path>
+			</info>
+			<arguments
+			id="1fe88ac4-0df0-4065-808e-b635b0d67657">
+			</arguments>
+		</invokeactionrecorditem>
 		<separatoritem
 		enabled="True"
 		optional="False">
