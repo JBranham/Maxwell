@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<repository
+﻿<repository
 id="da3b2bc7-526d-47dd-b196-99cdf4d25f37"
 name="MyWebVIPTestRepository"
 rxversion="8.3">
@@ -129,6 +128,42 @@ lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
 zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
 8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
 F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="3be27494-1633-4f36-b716-50cc2e7a238b"
+		isrooted="True"
+		name="SlackJasonBranhamTestingTools"
+		refpath="/form[@title='Slack | Jason Branham | Testing Tools']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="b08a91cd-d307-4b32-af9f-b936bbb6adcf"
+			name="Grouping"
+			refimgid="c4eb9926-7338-4573-b959-1bb884e11864"
+			refpath="/form[@title>'Slack | Jason Branham | Testing']/element/container/element/element[2]/container[@accessiblename='Testing Tools']/container/element[3]/container/element/element[1]/element[1]/text/container[@accessiblerole='Grouping']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Slack | Jason Branham | Testing']/?/?/container[@accessiblename&gt;'Slack | Jason Branham | Testing']//container[@accessiblename='Testing Tools']/container[@accessiblename&gt;'Conversation with @Jason']/element[3]/container[@accessiblerole='Grouping']//text[@accessiblename='Jot something down']/container[@accessiblerole='Grouping']
+			</item>
+			<basepath>
+				/form[@title&gt;'Slack | Jason Branham | Testing']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAICSURBVDhPhZI7bNNQFIatSF5YuldR1laoipSl
+EiMDTCyswMbMAIwVW0WkiCkTIPGoMnShEqp4SGEzKWkiUBsCgqbUIooSqcH4ce3YjvM4nHNcO04L
+4pc++T7O/1/7+Er/UArJICtIDllCFpD/KpVOp1d93z+eTqdAJFWr1e5jzWJYelbnms1mMTJGTCaT
+OWgNa7OhZaZUo9EoRkUimMDqjsl81FTIvrkHF8rrc0HoWQ6tKHrtaGM8HkOARAEbRxUOIGgvwnXd
+Dlpl8qdwcjwajcD0R7BvDpk9wwdaSwbQ/MDo8ZNCZFmmBkuZIAiAiE5N8vzH+zjgwde3/LyqFLke
+e/aIAlaGwyEQp83X9wSYrs2mtf0XcOfTJo831SrX67p+SAE5/G1AiMpn0B9u86b1qgq+IXjdVrfA
+PngW0trgfVp3HEdQwJLnebzwM3ONcb6347F9tAXadnYO/d1lIE+v16tQwAI2kboK7fM3oXtlDUT1
+Sxzgee6ZAKdb4fpCoXCDAiRFUfJRyGAwAOtDMw4Q7TIYu7fBMbq8lwStdN1Zi/g99E2MuTt7A/Pb
+09nJiZpSqXTrxBsra9s2RHQu3oVfT17z+Hf5EoiOwmMhBLRarZdYz5fotJb7/X6HiizLYmicnJ+c
+/FdzJLxgcq5erz/GLh9qmmarqrqTz+epYfE3h5KkPxaQcArD6WAcAAAAAElFTkSuQmCC
 			</icon>
 		</appfolder>
 		<basepath>

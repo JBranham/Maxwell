@@ -4,9 +4,6 @@ embeddedrepository="False"
 id="385d616f-a60a-4829-8fb1-afaffdb21488"
 mode="Desktop"
 rxversion="8.3">
-	<name>
-		CloseApp
-	</name>
 	<repeatcount>
 		1
 	</repeatcount>
@@ -106,12 +103,150 @@ rxversion="8.3">
 				</path>
 			</info>
 		</closeapprecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="752ede5a-f634-48b4-ae9b-83f384f53353"
+		sx="4319"
+		sy="970"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b08a91cd-d307-4b32-af9f-b936bbb6adcf"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="container"
+				rect="4100,956,1203,20"
+				role="container"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Grouping
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@title&gt;'Slack | Jason Branham | Testing']/?/?/container[@accessiblename&gt;'Slack | Jason Branham | Testing']//container[@accessiblename='Testing Tools']/container[@accessiblename&gt;'Conversation with @Jason']/element[3]/container[@accessiblerole='Grouping']//text[@accessiblename='Jot something down']/container[@accessiblerole='Grouping']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="1b7f4445-a319-45a6-a608-4b5a92ab647b">
+				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
+RRRQB//Z
+			</helperscreenshot>
+		</mouseitem>
 	</recorditems>
 	<repository
 	id="da3b2bc7-526d-47dd-b196-99cdf4d25f37"
 	name="MyWebVIPTestRepository"
 	relativepath="MyWebVIPTestRepository.rxrep"
-	rxversion="6.2">
+	rxversion="8.3">
 		<codegen
 		classname="MyWebVIPTestRepository"
 		namespace="MyWebVIPTest">

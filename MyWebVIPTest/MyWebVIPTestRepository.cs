@@ -28,6 +28,7 @@ namespace MyWebVIPTest
     {
         static MyWebVIPTestRepository instance = new MyWebVIPTestRepository();
         MyWebVIPTestRepositoryFolders.RanorexVIPDatabaseTestWebApplicatioAppFolder _ranorexvipdatabasetestwebapplicatio;
+        MyWebVIPTestRepositoryFolders.SlackJasonBranhamTestingToolsAppFolder _slackjasonbranhamtestingtools;
 
         /// <summary>
         /// Gets the singleton class instance representing the MyWebVIPTestRepository element repository.
@@ -45,6 +46,7 @@ namespace MyWebVIPTest
             : base("MyWebVIPTestRepository", "/", null, 0, false, "01c5e881-187a-4fa0-90ca-eb7438950196", ".\\RepositoryImages\\MyWebVIPTestRepository01c5e881.rximgres")
         {
             _ranorexvipdatabasetestwebapplicatio = new MyWebVIPTestRepositoryFolders.RanorexVIPDatabaseTestWebApplicatioAppFolder(this);
+            _slackjasonbranhamtestingtools = new MyWebVIPTestRepositoryFolders.SlackJasonBranhamTestingToolsAppFolder(this);
         }
 
 #region Variables
@@ -70,6 +72,15 @@ namespace MyWebVIPTest
         public virtual MyWebVIPTestRepositoryFolders.RanorexVIPDatabaseTestWebApplicatioAppFolder RanorexVIPDatabaseTestWebApplicatio
         {
             get { return _ranorexvipdatabasetestwebapplicatio; }
+        }
+
+        /// <summary>
+        /// The SlackJasonBranhamTestingTools folder.
+        /// </summary>
+        [RepositoryFolder("3be27494-1633-4f36-b716-50cc2e7a238b")]
+        public virtual MyWebVIPTestRepositoryFolders.SlackJasonBranhamTestingToolsAppFolder SlackJasonBranhamTestingTools
+        {
+            get { return _slackjasonbranhamtestingtools; }
         }
     }
 
@@ -412,6 +423,72 @@ namespace MyWebVIPTest
                 get
                 {
                     return _lastnameInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The SlackJasonBranhamTestingToolsAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("3be27494-1633-4f36-b716-50cc2e7a238b")]
+        public partial class SlackJasonBranhamTestingToolsAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _groupingInfo;
+
+            /// <summary>
+            /// Creates a new SlackJasonBranhamTestingTools  folder.
+            /// </summary>
+            public SlackJasonBranhamTestingToolsAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("SlackJasonBranhamTestingTools", "/form[@title>'Slack | Jason Branham | Testing']", parentFolder, 30000, null, true, "3be27494-1633-4f36-b716-50cc2e7a238b", "")
+            {
+                _groupingInfo = new RepoItemInfo(this, "Grouping", "?/?/container[@accessiblename>'Slack | Jason Branham | Testing']//container[@accessiblename='Testing Tools']/container[@accessiblename>'Conversation with @Jason']/element[3]/container[@accessiblerole='Grouping']//text[@accessiblename='Jot something down']/container[@accessiblerole='Grouping']", 30000, null, "b08a91cd-d307-4b32-af9f-b936bbb6adcf");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("3be27494-1633-4f36-b716-50cc2e7a238b")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("3be27494-1633-4f36-b716-50cc2e7a238b")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Grouping item.
+            /// </summary>
+            [RepositoryItem("b08a91cd-d307-4b32-af9f-b936bbb6adcf")]
+            public virtual Ranorex.Container Grouping
+            {
+                get
+                {
+                    return _groupingInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Grouping item info.
+            /// </summary>
+            [RepositoryItemInfo("b08a91cd-d307-4b32-af9f-b936bbb6adcf")]
+            public virtual RepoItemInfo GroupingInfo
+            {
+                get
+                {
+                    return _groupingInfo;
                 }
             }
         }
