@@ -41,6 +41,7 @@ namespace MyWebVIPTest
         /// </summary>
         public StartApp()
         {
+            varBrowser = "IE";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace MyWebVIPTest
         }
 
 #region Variables
+
+        string _varBrowser;
+
+        /// <summary>
+        /// Gets or sets the value of variable varBrowser.
+        /// </summary>
+        [TestVariable("fcd04b9c-69dd-47ce-a754-05ed73094a96")]
+        public string varBrowser
+        {
+            get { return _varBrowser; }
+            set { _varBrowser = value; }
+        }
 
 #endregion
 
@@ -79,8 +92,8 @@ namespace MyWebVIPTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'http://www.ranorex.com/web-testing-examples/vip/' with browser 'IE' in normal mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser("http://www.ranorex.com/web-testing-examples/vip/", "IE", "", false, false, false, false, false, true);
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'http://www.ranorex.com/web-testing-examples/vip/' with browser specified by variable $varBrowser in normal mode.", new RecordItemIndex(0));
+            Host.Current.OpenBrowser("http://www.ranorex.com/web-testing-examples/vip/", varBrowser, "", false, false, false, false, false, true);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'RanorexVIPDatabaseTestWebApplicatio'.", repo.RanorexVIPDatabaseTestWebApplicatio.SelfInfo, new RecordItemIndex(1));

@@ -24,6 +24,11 @@ rxversion="8.3">
 	namespace="MyWebVIPTest">
 	</codegen>
 	<variables>
+		<var
+		id="fcd04b9c-69dd-47ce-a754-05ed73094a96"
+		name="varBrowser">
+			IE
+		</var>
 	</variables>
 	<recorditems>
 		<openwebsiterecorditem
@@ -40,6 +45,10 @@ rxversion="8.3">
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="BrowserName"
+				variable="varBrowser">
+				</binding>
 			</bindings>
 			<url>
 				http://www.ranorex.com/web-testing-examples/vip/

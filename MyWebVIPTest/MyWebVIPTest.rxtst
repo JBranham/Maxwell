@@ -3,6 +3,18 @@
 rxversion="8.3">
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
+			<testcase
+			id="0146c6b1-f447-49c0-a57d-bb2c12082725"
+			name="TestCase">
+			</testcase>
+			<testcase
+			id="067490d6-c494-4cbe-b553-a62b76bf9eed"
+			name="TestCase">
+			</testcase>
+			<testcase
+			id="06d856c6-e501-4e34-a1b1-1b3b6187476b"
+			name="TestCase">
+			</testcase>
 			<testmodule
 			id="24ad07dd-9e00-49ae-91ab-e97416c4c3c5"
 			name="AddVIPs"
@@ -44,7 +56,23 @@ rxversion="8.3">
 				<description>
 					<![CDATA[Has syntax for inheritance in StartApp.cs]]>
 				</description>
+				<databinding>
+					<var
+					dataname="paramBrowser"
+					datasourceid="b61142aa-7664-492d-a08b-f6f033e66b7f"
+					variableid="fcd04b9c-69dd-47ce-a754-05ed73094a96"
+					variablename="varBrowser">
+					</var>
+				</databinding>
 			</testmodule>
+			<testcase
+			id="77c1d03c-94ab-4952-b036-c68d4b80875c"
+			name="TestCase">
+			</testcase>
+			<smartfoldernode
+			id="796792bb-304b-4ab5-b04a-e6d458fd6c0a"
+			name="Desktop">
+			</smartfoldernode>
 			<testmodule
 			id="7acd202a-b9f0-4a4c-ac63-14f4d88f88cc"
 			name="CloseApp"
@@ -58,6 +86,28 @@ rxversion="8.3">
 			id="b61142aa-7664-492d-a08b-f6f033e66b7f"
 			name="MyWebVIPTest"
 			reportlevel="Info;20">
+				<parameters>
+					<param
+					name="paramBrowser"
+					value="IE">
+					</param>
+				</parameters>
+			</testcase>
+			<testcase
+			id="c784e699-2c29-4bfe-b959-52740668b12f"
+			name="TestCase">
+			</testcase>
+			<smartfoldernode
+			id="ce4e9a58-b24b-44d3-9c3c-496864d50eb9"
+			name="Web">
+			</smartfoldernode>
+			<testcase
+			id="e1259600-e976-4d8e-997e-6465894f530f"
+			name="TestCase">
+			</testcase>
+			<testcase
+			id="f2994714-b018-4a95-bbe5-9e0de1440d4d"
+			name="TestCase">
 			</testcase>
 		</flatlistofchildren>
 		<childhierarchy>
@@ -87,6 +137,42 @@ rxversion="8.3">
 							</testmodule>
 						</teardown>
 					</testcase>
+					<smartfoldernode
+					id="796792bb-304b-4ab5-b04a-e6d458fd6c0a"
+					name="Desktop">
+						<testcase
+						id="e1259600-e976-4d8e-997e-6465894f530f"
+						name="TestCase">
+						</testcase>
+						<testcase
+						id="f2994714-b018-4a95-bbe5-9e0de1440d4d"
+						name="TestCase">
+						</testcase>
+						<testcase
+						id="c784e699-2c29-4bfe-b959-52740668b12f"
+						name="TestCase">
+						</testcase>
+						<testcase
+						id="067490d6-c494-4cbe-b553-a62b76bf9eed"
+						name="TestCase">
+						</testcase>
+					</smartfoldernode>
+					<smartfoldernode
+					id="ce4e9a58-b24b-44d3-9c3c-496864d50eb9"
+					name="Web">
+						<testcase
+						id="0146c6b1-f447-49c0-a57d-bb2c12082725"
+						name="TestCase">
+						</testcase>
+						<testcase
+						id="06d856c6-e501-4e34-a1b1-1b3b6187476b"
+						name="TestCase">
+						</testcase>
+						<testcase
+						id="77c1d03c-94ab-4952-b036-c68d4b80875c"
+						name="TestCase">
+						</testcase>
+					</smartfoldernode>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -96,18 +182,108 @@ rxversion="8.3">
 	<testconfigurations
 	default="TestRun">
 		<testconfiguration
-		name="TestRun">
+		name="FeatureA">
+			<testcontainer
+			id="0146c6b1-f447-49c0-a57d-bb2c12082725">
+			</testcontainer>
+			<testcontainer
+			id="06d856c6-e501-4e34-a1b1-1b3b6187476b">
+			</testcontainer>
+			<testcontainer
+			id="77c1d03c-94ab-4952-b036-c68d4b80875c">
+			</testcontainer>
+			<testcontainer
+			id="b61142aa-7664-492d-a08b-f6f033e66b7f">
+			</testcontainer>
+			<testcontainer
+			id="ce4e9a58-b24b-44d3-9c3c-496864d50eb9">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="FeatureB">
+			<testcontainer
+			id="067490d6-c494-4cbe-b553-a62b76bf9eed">
+			</testcontainer>
+			<testcontainer
+			id="796792bb-304b-4ab5-b04a-e6d458fd6c0a">
+			</testcontainer>
+			<testcontainer
+			id="b61142aa-7664-492d-a08b-f6f033e66b7f">
+			</testcontainer>
+			<testcontainer
+			id="c784e699-2c29-4bfe-b959-52740668b12f">
+			</testcontainer>
+			<testcontainer
+			id="e1259600-e976-4d8e-997e-6465894f530f">
+			</testcontainer>
+			<testcontainer
+			id="f2994714-b018-4a95-bbe5-9e0de1440d4d">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="SmokeTests">
+			<testcontainer
+			id="067490d6-c494-4cbe-b553-a62b76bf9eed">
+			</testcontainer>
 			<testcontainer
 			id="24c97d84-0d74-49ac-bd9d-35838ac4c0d4">
 			</testcontainer>
 			<testcontainer
+			id="796792bb-304b-4ab5-b04a-e6d458fd6c0a">
+			</testcontainer>
+			<testcontainer
 			id="b61142aa-7664-492d-a08b-f6f033e66b7f">
+			</testcontainer>
+			<testcontainer
+			id="e1259600-e976-4d8e-997e-6465894f530f">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="TestRun">
+			<testcontainer
+			id="0146c6b1-f447-49c0-a57d-bb2c12082725">
+			</testcontainer>
+			<testcontainer
+			id="067490d6-c494-4cbe-b553-a62b76bf9eed">
+			</testcontainer>
+			<testcontainer
+			id="06d856c6-e501-4e34-a1b1-1b3b6187476b">
+			</testcontainer>
+			<testcontainer
+			id="24c97d84-0d74-49ac-bd9d-35838ac4c0d4">
+			</testcontainer>
+			<testcontainer
+			id="77c1d03c-94ab-4952-b036-c68d4b80875c">
+			</testcontainer>
+			<testcontainer
+			id="796792bb-304b-4ab5-b04a-e6d458fd6c0a">
+			</testcontainer>
+			<testcontainer
+			id="b61142aa-7664-492d-a08b-f6f033e66b7f">
+			</testcontainer>
+			<testcontainer
+			id="c784e699-2c29-4bfe-b959-52740668b12f">
+			</testcontainer>
+			<testcontainer
+			id="ce4e9a58-b24b-44d3-9c3c-496864d50eb9">
+			</testcontainer>
+			<testcontainer
+			id="e1259600-e976-4d8e-997e-6465894f530f">
+			</testcontainer>
+			<testcontainer
+			id="f2994714-b018-4a95-bbe5-9e0de1440d4d">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>
 		<reference>
-			Newtonsoft.Json.dll
+			..\..\..\..\..\..\..\..\..\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.9\bin\plugins\Diagnostics\Newtonsoft.Json.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.2\Microsoft.CSharp.dll
+		</reference>
+		<reference>
+			Serilog.dll
 		</reference>
 	</references>
 </testsuitedoc>

@@ -34,6 +34,7 @@
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
       <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
@@ -106,6 +107,9 @@
     </Reference>
     <Reference Include="Ranorex.Plugin.Wpf.Core">
       <Private>False</Private>
+    </Reference>
+    <Reference Include="Serilog">
+      <HintPath>..\packages\Serilog.2.9.0\lib\net46\Serilog.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -202,6 +206,9 @@
     </None>
     <None Include="packages.config">
       <id>ee116edd-83a7-4923-94c8-bdf473376805</id>
+    </None>
+    <None Include="RUN.bat">
+      <id>319c0117-76f3-4c24-bdfb-d7a7a45a29cc</id>
     </None>
     <None Include="StartApp.rxrec">
       <BoundTo>4f09755c-526f-461f-8eb5-f72aaf885fbb</BoundTo>
